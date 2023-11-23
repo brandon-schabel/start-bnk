@@ -3,10 +3,10 @@
 ## Quick start
 
 ```bash
-echo --p bnk-starter | bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/utils/quickstart.sh)>
+bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/utils/quickstart.sh)
 ```
 
-You can replace "bnk-starter" with whatever you want to name your project.
+you can pass in a `-p`  flag followed by a desired folder name to pass the custom name directly to the command.
 
 The above commands/script will create a template from the file and run a setup script to install bun if it's not already installed, install dependencies(bun/bun-types packages). Then it will start the server and open the browser. 
 

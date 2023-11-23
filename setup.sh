@@ -26,7 +26,7 @@ bun dev &
 sleep 5
 
 # Open the web browser
-echo "Opening the browser at localhost:3000..."
+echo "Opening the browser at http://localhost:3000..."
 if command_exists xdg-open; then
   xdg-open http://localhost:3000
 elif command_exists open; then
@@ -39,5 +39,4 @@ echo "Setup complete!"
 
 echo "Start server again by running \"bun dev\" in the project directory."
 
-echo "Deleting setup.sh..."
-rm setup.sh
+echo "View JSON route at http://localhost:3000/json"
