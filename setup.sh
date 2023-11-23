@@ -1,6 +1,6 @@
 #!/bin/bash
-
 # Script to setup and run a Bun project
+# You can delete this file after running it or if you did manual setup.
 
 # Function to check if a command exists
 command_exists() {
