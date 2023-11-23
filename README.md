@@ -36,6 +36,9 @@ Dev server default port 3000, link: [`http://localhost:3000`](http://localhost:3
 Visit `http://localhost:3000` in your browser and you should see Hello world and
 `http://localhost:3000/json` for the json
 
+# [Bun Nook Kit Docs](https://nookit.dev/readme)
+## [BNK Server Docs](https://nookit.dev/readmes/server)
+
 
 ## Handle Form Data
 ```typescript
@@ -56,8 +59,5 @@ const routes = {
 }
 ```
 
-[Bun Nook Kit Docs](https://nookit.dev/readme)
-[BNK Server Docs](https://nookit.dev/readmes/server)
-
-
 Middleware type inference in route config:
+<img width="736" alt="Xnapper-2023-11-22-19 51 56" src="https://github.com/brandon-schabel/start-bnk/assets/18100375/420342b0-e1f2-4c70-8019-32b1023d2b3d">
