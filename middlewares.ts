@@ -1,8 +1,13 @@
 import {
+  Routes,
   middlewareFactory,
   type Middleware,
   type MiddlewareConfigMap,
-} from "@bnk/core/modules/server";
+} from "bnkit/server";
+
+export type RoutesWithMiddleware = Routes<{
+  middleware: typeof middlewareConfig;
+}>;
 
 type CustomMiddleware = Middleware<{
   timestamp: Date;

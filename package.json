@@ -13,6 +13,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@bnk/core": "^0.3.2"
+    "bnkit": "^0.4.14"
   }
 }

@@ -1,6 +1,5 @@
-import type { Routes } from "@bnk/core/modules/server";
-import { jsonRes, serverFactory } from "@bnk/core/modules/server";
-import { middleware, middlewareConfig } from "./middlewares";
+import { jsonRes, serverFactory } from "bnkit/server";
+import { middleware, RoutesWithMiddleware } from "./middlewares";
 
 const routes = {
   "/": {
@@ -15,7 +14,7 @@ const routes = {
         ...time,
       }),
   },
-} satisfies Routes<{ middleware: typeof middlewareConfig }>;
+} satisfies RoutesWithMiddleware;
 
 // Create Server Factory with middleware
 const { start } = serverFactory({
