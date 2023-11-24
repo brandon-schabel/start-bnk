@@ -3,7 +3,7 @@
 ## Quick start
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/utils/quickstart.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/scripts/quickstart.sh)
 ```
 
 you can pass in a `-p`  flag followed by a desired folder name to pass the custom name directly to the command.
